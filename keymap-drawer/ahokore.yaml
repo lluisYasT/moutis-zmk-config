@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: microdox}
+layout: {zmk_keyboard: ahokore}
 layers:
   HD-Vf:
   - '&ak_X'

@@ -1,6 +1,6 @@
-layout: {zmk_keyboard: microdox}
+layout: {zmk_keyboard: cradio, layout_name: default_transform}
 layers:
-  HD-Vf:
+  HD-Vb:
   - '&ak_X'
   - '&ak_W'
   - '&ak_M'
@@ -21,7 +21,7 @@ layers:
   - {t: '&ak_E E', h: Gui}
   - {t: '&ak_I I', h: Alt}
   - {t: '&ak_H H', h: Ctrl}
-  - '&ak_F'
+  - '&ak_B'
   - '&ak_P'
   - '&ak_L'
   - '&ak_D'
@@ -30,13 +30,11 @@ layers:
   - '&ak_U'
   - '&ak_O'
   - '&ak_Y'
-  - '&ak_B'
-  - '&SlAppy'
+  - '&ak_F'
   - {t: '&ak_BSPC', h: l_fn, s: DELETE}
   - {t: '&ak_R R', h: l_nav}
   - {t: ␣, h: l_sym}
   - {t: RETURN, h: l_nav}
-  - {t: l_num, h: toggle}
   HD-JP:
   - '-'
   - W
@@ -58,7 +56,7 @@ layers:
   - {t: E, h: Gui}
   - {t: I, h: Alt}
   - {t: H, h: Ctrl}
-  - F
+  - B
   - P
   - '&t_nn'
   - D
@@ -67,11 +65,9 @@ layers:
   - U
   - O
   - Y
-  - B
-  - {t: ▽, type: trans}
+  - F
   - {t: ▽, type: trans}
   - {t: R, h: l_nav}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   l_akDOT:
@@ -99,8 +95,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&b_wd'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -142,12 +136,10 @@ layers:
   - '&'
   - {t: <, h: '&t_pairLtGt GT'}
   - '>'
-  - {t: ▽, type: trans}
   - Alt+⌫
   - Alt+⌦
   - {type: held}
   - Alt+1
-  - {t: ▽, type: trans}
   l_fn:
   - F9
   - F10
@@ -179,12 +171,10 @@ layers:
   - '5'
   - '6'
   - '='
-  - {t: ▽, type: trans}
   - {t: ⌫, type: held}
   - ⌦
   - '0'
   - .
-  - {t: ▽, type: trans}
   l_num:
   - Gui+↑
   - Home
@@ -216,12 +206,10 @@ layers:
   - KP 2
   - KP 3
   - KP EQUAL
-  - {t: ▽, type: trans}
   - {t: ⌫, h: l_fn}
   - {t: KP ENTER, h: l_nav}
   - KP 0
   - KP DOT
-  - {t: ▽, type: trans}
   l_nav:
   - Gui+Q
   - Gui+W
@@ -253,12 +241,10 @@ layers:
   - ↓
   - Page Down
   - Alt+↓
-  - {t: ▽, type: trans}
   - '&SlApBack'
   - {t: '&SlAppy', type: held}
   - Gui+[
   - Gui+]
-  - {t: ▽, type: trans}
   l_cfg:
   - BT 4
   - BT 3
@@ -290,31 +276,29 @@ layers:
   - ⏯
   - ⏮️
   - {t: Reset, h: Boot}
-  - {t: ▽, type: trans}
   - {t: Gui+-, type: held}
   - {t: Gui+=, type: held}
   - Gui+=
   - Gui+-
-  - {t: ▽, type: trans}
 combos:
 - p: [11, 12, 13]
   k: '&m_alpha'
 - p: [16, 17, 18]
   k: '&m_japan'
-- p: [31, 32]
-  k: l_cfg
-- p: [33, 34]
+- p: [30, 31]
   k: l_cfg
 - p: [32, 33]
+  k: l_cfg
+- p: [31, 32]
   k: '&num_word 5'
 - p: [3, 4]
   k: '&SlAppy'
 - p: [28, 29]
   k: Caps Wrd
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [27, 28, 29]
   k: Caps Lock
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [22, 23, 24]
   k: Gui+RETURN
 - p: [23, 24]
@@ -341,82 +325,82 @@ combos:
   k: {t: Gui+V, h: Gui+Sft+Alt+V}
 - p: [4, 14]
   k: Gui+Q
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [14, 24]
   k: Gui+N
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [5, 15]
   k: Gui+W
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [15, 25]
   k: Gui+O
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [20, 24]
   k: '&m_selword'
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [10, 24]
   k: '&m_findsel'
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [6, 8]
   k: {t: ':', h: Alt+;}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [15, 16]
   k: ;
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [6, 7]
   k: '!'
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [7, 8]
   k: '?'
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [8, 9]
   k: '`'
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [5, 6]
   k: {t: '@', h: Sft+Alt+;}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [26, 28]
   k: _
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [27, 28]
   k: {t: '=', h: '%'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [25, 26]
   k: {t: Alt+-, h: Alt+Sft+-}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [25, 27]
   k: Alt+Sft+-
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [25, 28]
   k: '~'
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [16, 26]
   k: Alt+.
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [17, 27]
   k: Alt+Q
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [16, 17]
   k: {t: Alt+E, h: '&t_Eaccent E'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [17, 18]
   k: {t: Alt+`, h: '&t_Egrave E'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [16, 18]
   k: {t: Alt+6, h: '&t_Eacute E'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [17, 19]
   k: {t: Alt+A, h: '&t_Omacron E'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [16, 19]
   k: {t: Alt+K, h: '&t_Aring A'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [26, 27]
   k: {t: Alt+U, h: '&t_Uumlaut U'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [10, 12]
   k: {t: Alt+C, h: '&t_Cedille C'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [16, 17]
   k: (
   l: [l_num]
@@ -464,10 +448,10 @@ combos:
   l: [l_num]
 - p: [1, 2, 3]
   k: {t: '&t_LTapE', h: '&t_LHoldE'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [6, 7, 8]
   k: {t: '&t_RTapE', h: '&t_RHoldE'}
-  l: [HD-Vf]
+  l: [HD-Vb]
 - p: [1, 2, 3]
   k: {t: '&t_LTapJ', h: '&t_LHoldJ'}
   l: [HD-JP]
