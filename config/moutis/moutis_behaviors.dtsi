@@ -351,10 +351,10 @@
             #binding-cells = <0>;
             bindings = <&kp BSPC>;
 
-            ak_BSPC_U { trigger-keys = <A>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp U>; };
-            ak_BSPC_A { trigger-keys = <U>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp A>; };
-            ak_BSPC_O { trigger-keys = <E>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp O>; };
-            ak_BSPC_E { trigger-keys = <O>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp E>; };
+            // ak_BSPC_U { trigger-keys = <A>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp U>; };
+            // ak_BSPC_A { trigger-keys = <U>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp A>; };
+            // ak_BSPC_O { trigger-keys = <E>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp O>; };
+            // ak_BSPC_E { trigger-keys = <O>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp E>; };
         };
 
         ak_DOT: ak_DOT {
@@ -362,7 +362,7 @@
             #binding-cells = <0>;
             bindings = <&sl_dot>;
 
-            ak_DOT_EXCL { trigger-keys = <FSLH>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC  &kp EXCL>; };
+           // ak_DOT_EXCL { trigger-keys = <FSLH>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC  &kp EXCL>; };
         };
         ak_FSLH: ak_FSLH {
             compatible = "zmk,behavior-adaptive-key";
@@ -384,19 +384,19 @@
             bindings = <&kp SQT>;
 
             ak_SQT_Q { trigger-keys = <FSLH>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC  &kp S_INVQ>; };
-            ak_SQT_A { trigger-keys = <U>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp A>; };
-            ak_SQT_U { trigger-keys = <A>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp U>; };
+            //ak_SQT_A { trigger-keys = <U>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp A>; };
+            //ak_SQT_U { trigger-keys = <A>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp U>; };
         };
         ak_HASH: ak_HASH {
             compatible = "zmk,behavior-adaptive-key";
             #binding-cells = <0>;
             bindings = <&kp HASH>;
 
-        ak_HASH_INVX { trigger-keys = <FSLH>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp S_INVX>; };
-        ak_HASH_b_Gratefully { trigger-keys = <G>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Gratefully>; };
-        ak_HASH_b_Indiana { trigger-keys = <I>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Indiana>; };
-        ak_HASH_b_University { trigger-keys = <U>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_University>; };
-        ak_HASH_b_Bloomington { trigger-keys = <B>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Bloomington>; };
+        //ak_HASH_INVX { trigger-keys = <FSLH>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp S_INVX>; };
+        //ak_HASH_b_Gratefully { trigger-keys = <G>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Gratefully>; };
+        //ak_HASH_b_Indiana { trigger-keys = <I>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Indiana>; };
+        //ak_HASH_b_University { trigger-keys = <U>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_University>; };
+        //ak_HASH_b_Bloomington { trigger-keys = <B>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Bloomington>; };
         };
 
 
@@ -415,8 +415,8 @@
             bindings = <&kp CMMA>;
 
             ak_CMMA_cap { trigger-keys = <CMMA>; max-prior-idle-ms = <my_cc_term>; bindings = <&kp BSPC  &caps_word>; };
-            ak_CMMA_O { trigger-keys = <E>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp O>; };
-            ak_CMMA_E { trigger-keys = <O>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp E>; };
+        //    ak_CMMA_O { trigger-keys = <E>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp O>; };
+        //    ak_CMMA_E { trigger-keys = <O>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp E>; };
         };
         CmmaMgc: CmmaMgc {              // Hold for CAPSLOCK, tap for COMMA
             my_lk_config;
