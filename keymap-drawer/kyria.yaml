@@ -1,55 +1,540 @@
-layout: {zmk_keyboard: kyria}
+layout: {zmk_keyboard: kyria, layout_name: five_column_transform}
 layers:
-  default: [Esc, Q, W, E, R, T, Y, U, I, O, P, \, ↹, A, S, D, F, G, H, J, K, L, ;, '''', Shift, Z, X, C, V, B, Shift, Shift, function, Shift, N, M, ',', ., /, Ctrl,
-    Gui, ⌦, ⏎, ␣, Esc, ⏎, ␣, ↹, ⌫, Alt]
-  function:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT 4
-  - BT 5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  HD-Vf:
+  - '&ak_X'
+  - '&ak_W'
+  - '&ak_M'
+  - '&ak_G'
+  - '&ak_J'
+  - {t: '&ak_HASH', s: $}
+  - {t: '&ak_DOT', s: ':'}
+  - {t: /, s: '*'}
+  - {t: '&ak_DQT', h: '&t_pairDquo', s: <}
+  - {t: '&ak_SQT', h: '&t_pairSquo', s: '>'}
+  - {t: '&ak_S S', h: Ctrl}
+  - {t: '&ak_C C', h: Alt}
+  - {t: '&ak_N N', h: Gui}
+  - {t: '&ak_T T', h: Shift}
+  - '&ak_K'
+  - {t: '&ak_CMMA', h: CAPSLOCK, s: ;}
+  - {t: '&ak_A A', h: Shift}
+  - {t: '&ak_E E', h: Gui}
+  - {t: '&ak_I I', h: Alt}
+  - {t: '&ak_H H', h: Ctrl}
+  - '&ak_F'
+  - '&ak_P'
+  - '&ak_L'
+  - '&ak_D'
+  - '&ak_V'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '-', s: +}
+  - '&ak_U'
+  - '&ak_O'
+  - '&ak_Y'
+  - '&ak_B'
+  - MUTE
+  - '&SlAppy'
+  - {t: '&ak_BSPC', h: l_fn, s: DELETE}
+  - {t: '&ak_R R', h: l_nav}
+  - Sft+Ctl+3
+  - Sft+Ctl+4
+  - {t: ␣, h: l_sym}
+  - {t: RETURN, h: l_nav}
+  - {t: l_num, h: toggle}
+  - ⏯
+  HD-JP:
+  - '-'
+  - W
+  - M
+  - G
+  - J
+  - {t: ▽, type: trans}
+  - {t: ., s: ':'}
+  - {t: /, s: '*'}
+  - {t: '[', h: '&t_pairBkt RBKT'}
+  - ']'
+  - {t: S, h: Ctrl}
+  - {t: Z, h: Alt}
+  - {t: N, h: Gui}
+  - {t: T, h: Shift}
+  - K
+  - {t: ▽, type: trans}
+  - {t: A, h: Shift}
+  - {t: E, h: Gui}
+  - {t: I, h: Alt}
+  - {t: H, h: Ctrl}
+  - F
+  - P
+  - '&t_nn'
+  - D
+  - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - U
+  - O
+  - Y
+  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: R, h: l_nav}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  l_akDOT:
+  - T
+  - L
+  - L
+  - L
+  - {t: ▽, type: trans}
+  - $
+  - .
+  - '&t_dotcom'
+  - '&t_dotedu'
+  - '&t_dotorg'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Caps Wrd
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&b_wd'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  l_sym:
+  - Z
+  - Q
+  - Alt+7
+  - Alt+Sft+5
+  - Alt+Sft+7
+  - Alt+4
+  - $
+  - Alt+Sft+2
+  - Alt+3
+  - Alt+Y
+  - Alt+5
+  - {t: '[', h: '&t_pairBkt RBKT'}
+  - {t: (, h: '&t_pairPar RPAR'}
+  - {t: '{', h: '&t_pairBrc RBRC'}
+  - Alt+8
+  - /
+  - {t: '=', h: Shift}
+  - {t: '*', h: Gui}
+  - {t: +, h: Alt}
+  - {t: '-', h: Ctrl}
+  - Alt+Sft+8
+  - ']'
+  - )
+  - '}'
+  - Alt+Sft+9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ^
+  - '|'
+  - '&'
+  - {t: <, h: '&t_pairLtGt GT'}
+  - '>'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+⌫
+  - Alt+⌦
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - Alt+1
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  l_fn:
+  - F9
+  - F10
+  - F11
+  - F12
+  - F13
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - {t: F5, h: Ctrl}
+  - {t: F6, h: Alt}
+  - {t: F7, h: Gui}
+  - {t: F8, h: Shift}
+  - F14
+  - '*'
+  - {t: '1', h: Shift}
+  - {t: '2', h: Gui}
+  - {t: '3', h: Alt}
+  - {t: +, h: Ctrl}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F15
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - CMMA
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ⌫, type: held}
+  - ⌦
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  l_num:
+  - Gui+↑
+  - Home
+  - ↑
+  - Page Up
+  - Alt+↑
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP SUBTRACT
+  - Alt+←
+  - ←
+  - ↓
+  - →
+  - Alt+→
+  - KP MULTIPLY
+  - {t: KP 4, h: Shift}
+  - {t: KP 5, h: Gui}
+  - {t: KP 6, h: Alt}
+  - {t: KP PLUS, h: Ctrl}
+  - Gui+↓
+  - End
+  - ␣
+  - Page Down
+  - Alt+↓
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - KP COMMA
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP EQUAL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ⌫, h: l_fn}
+  - {t: KP ENTER, h: l_nav}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 0
+  - KP DOT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  l_nav:
+  - Gui+Q
+  - Gui+W
+  - Gui+Sft+4
+  - Gui+Sft+Ctl+4
+  - Gui+AltGr+Sft+V
+  - Gui+↑
+  - Home
+  - ↑
+  - Page Up
+  - Alt+↑
+  - Ctrl
+  - Alt
+  - Gui
+  - Shift
+  - Gui+F
+  - Alt+←
+  - ←
+  - ↓
+  - →
+  - Alt+→
+  - UNDO
+  - CUT
+  - Gui+C
+  - Gui+AltGr+Sft+V
+  - Gui+G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+↓
+  - End
+  - ↓
+  - Page Down
+  - Alt+↓
+  - Gui+0
+  - {t: ▽, type: trans}
+  - '&SlApBack'
+  - {t: '&SlAppy', type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+[
+  - Gui+]
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  l_cfg:
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - Gui+0
+  - ''
+  - ''
+  - Ctl+Alt+⌦
+  - Gui+Alt+ESCAPE
+  - ''
+  - ⏭️
+  - ⏯
+  - Vol Up
+  - BRI UP
+  - Gui+-
+  - Vol Up
+  - MUTE
+  - ⏭️
+  - ''
+  - {t: Reset, h: Boot}
+  - ⏮️
+  - MUTE
+  - Vol Down
+  - BRI DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+=
+  - Vol Down
+  - ⏯
+  - ⏮️
+  - {t: Reset, h: Boot}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Gui+-, type: held}
+  - {t: Gui+=, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+=
+  - Gui+-
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [11, 12, 13]
+  k: '&m_alpha'
+- p: [16, 17, 18]
+  k: '&m_japan'
+- p: [36, 37]
+  k: l_cfg
+- p: [40, 41]
+  k: l_cfg
+- p: [37, 40]
+  k: '&num_word 5'
+- p: [3, 4]
+  k: '&SlAppy'
+- p: [32, 33]
+  k: Caps Wrd
+  l: [HD-Vf]
+- p: [31, 32, 33]
+  k: Caps Lock
+  l: [HD-Vf]
+- p: [22, 23, 24]
+  k: Gui+RETURN
+- p: [23, 24]
+  k: RETURN
+- p: [0, 1]
+  k: ↹
+  a: top
+  o: 0.15
+- p: [0, 1, 2]
+  k: Win Prev
+- p: [13, 14]
+  k: ␣
+- p: [10, 13]
+  k: Esc
+- p: [20, 23]
+  k: Gui+A
+- p: [20, 21]
+  k: Gui+Z
+- p: [20, 21, 22]
+  k: Gui+Sft+Z
+- p: [21, 22]
+  k: {t: Gui+C, h: Gui+X}
+- p: [22, 23]
+  k: {t: Gui+V, h: Gui+Sft+Alt+V}
+- p: [4, 14]
+  k: Gui+Q
+  l: [HD-Vf]
+- p: [14, 24]
+  k: Gui+N
+  l: [HD-Vf]
+- p: [5, 15]
+  k: Gui+W
+  l: [HD-Vf]
+- p: [15, 29]
+  k: Gui+O
+  l: [HD-Vf]
+- p: [20, 24]
+  k: '&m_selword'
+  l: [HD-Vf]
+- p: [10, 24]
+  k: '&m_findsel'
+  l: [HD-Vf]
+- p: [6, 8]
+  k: {t: ':', h: Alt+;}
+  l: [HD-Vf]
+- p: [15, 16]
+  k: ;
+  l: [HD-Vf]
+- p: [6, 7]
+  k: '!'
+  l: [HD-Vf]
+- p: [7, 8]
+  k: '?'
+  l: [HD-Vf]
+- p: [8, 9]
+  k: '`'
+  l: [HD-Vf]
+- p: [5, 6]
+  k: {t: '@', h: Sft+Alt+;}
+  l: [HD-Vf]
+- p: [30, 32]
+  k: _
+  l: [HD-Vf]
+- p: [31, 32]
+  k: {t: '=', h: '%'}
+  l: [HD-Vf]
+- p: [29, 30]
+  k: {t: Alt+-, h: Alt+Sft+-}
+  l: [HD-Vf]
+- p: [29, 31]
+  k: Alt+Sft+-
+  l: [HD-Vf]
+- p: [29, 32]
+  k: '~'
+  l: [HD-Vf]
+- p: [16, 30]
+  k: Alt+.
+  l: [HD-Vf]
+- p: [17, 31]
+  k: Alt+Q
+  l: [HD-Vf]
+- p: [16, 17]
+  k: {t: Alt+E, h: '&t_Eaccent E'}
+  l: [HD-Vf]
+- p: [17, 18]
+  k: {t: Alt+`, h: '&t_Egrave E'}
+  l: [HD-Vf]
+- p: [16, 18]
+  k: {t: Alt+6, h: '&t_Eacute E'}
+  l: [HD-Vf]
+- p: [17, 19]
+  k: {t: Alt+A, h: '&t_Omacron E'}
+  l: [HD-Vf]
+- p: [16, 19]
+  k: {t: Alt+K, h: '&t_Aring A'}
+  l: [HD-Vf]
+- p: [30, 31]
+  k: {t: Alt+U, h: '&t_Uumlaut U'}
+  l: [HD-Vf]
+- p: [10, 12]
+  k: {t: Alt+C, h: '&t_Cedille C'}
+  l: [HD-Vf]
+- p: [16, 17]
+  k: (
+  l: [l_num]
+- p: [17, 18]
+  k: )
+  l: [l_num]
+- p: [18, 19]
+  k: '='
+  l: [l_num]
+- p: [16, 18]
+  k: ':'
+  l: [l_num]
+- p: [32, 33]
+  k: '%'
+  l: [l_num]
+- p: [15, 16]
+  k: <
+  l: [l_num]
+- p: [15, 19]
+  k: '>'
+  l: [l_num]
+- p: [29, 30]
+  k: Alt+-
+  l: [l_num]
+- p: [29, 33]
+  k: '~'
+  l: [l_num]
+- p: [30, 33]
+  k: Alt+;
+  l: [l_num]
+- p: [6, 7]
+  k: $
+  l: [l_num]
+- p: [5, 6]
+  k: Alt+4
+  l: [l_num]
+- p: [7, 8]
+  k: Sft+Alt+2
+  l: [l_num]
+- p: [8, 9]
+  k: Alt+Y
+  l: [l_num]
+- p: [6, 8]
+  k: Alt+3
+  l: [l_num]
+- p: [1, 2, 3]
+  k: {t: '&t_LTapE', h: '&t_LHoldE'}
+  l: [HD-Vf]
+- p: [6, 7, 8]
+  k: {t: '&t_RTapE', h: '&t_RHoldE'}
+  l: [HD-Vf]
+- p: [1, 2, 3]
+  k: {t: '&t_LTapJ', h: '&t_LHoldJ'}
+  l: [HD-JP]
+- p: [6, 7, 8]
+  k: {t: '&t_RTapJ', h: '&t_RHoldJ'}
+  l: [HD-JP]
