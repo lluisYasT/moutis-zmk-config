@@ -24,14 +24,14 @@
 */
 
 #define HD_Layer_label "HD-Vb"
-#define HD_LT &ak_X           &ak_W           &ak_M           &ak_G           &ak_J
-#define HD_LM &mt_S LGUI S   &mt_C LALT C    &mt_N LCTRL N    &mt_T LSHFT T   &ak_K
-#define HD_LB &ak_B           &ak_P           &ak_L           &ak_D           &ak_V
+#define HD_LT &kp X           &kp W           &kp M           &kp G           &kp J
+#define HD_LM &hml LGUI S   &hml LALT C    &hml LCTRL N    &hml LSHFT T   &kp K
+#define HD_LB &kp B           &kp P           &kp L           &kp D           &kp V
 #define HD_LH                                                 &lt_BSPC l_fun BSPC &lt_R l_nav R
 
 #define HD_RT &HashDllr       &DotColn        &SlshStar       &DqtLT          &SqtGT
-#define HD_RM &CommaMagic     &mt_A RSHFT A   &mt_E RCTRL E    &mt_I RALT I    &mt_H RGUI H
-#define HD_RB &MinusPlus      &ak_U           &ak_O           &ak_Y           &ak_F
+#define HD_RM &CommaMagic     &hmr RSHFT A   &hmr RCTRL E    &hmr RALT I    &hmr RGUI H
+#define HD_RB &MinusPlus      &kp U           &kp O           &kp Y           &kp F
 #define HD_RH &lt l_sym SPACE &lt l_nav RETURN
 
 // Japanese "mode" (no adaptives, & L, C, X not used so repurpose to ん, Z, -)
