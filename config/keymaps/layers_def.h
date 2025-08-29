@@ -20,7 +20,7 @@
 #define l_sym_RT &kp C_CENT         &kp DLLR            &kp C_EURO          &kp C_BPND          &kp C_JPY
 
 #define l_sym_LM &kp S_SECT         &lk_LRbkt           &lk_LRpar           &lk_LRbrc           &kp S_BBLT
-#define l_sym_RM &kp FSLH           &mt RSHFT EQUAL     &mt RGUI STAR       &mt RALT PLUS       &mt LCTRL MINUS
+#define l_sym_RM &kp FSLH           &mt RSHFT EQUAL     &mt RCTRL STAR       &mt RALT PLUS       &mt LGUI MINUS
 
 #define l_sym_LB &kp S_DEGR         &kp RBKT            &kp RPAR            &kp RBRC            &kp S_SBLT
 #define l_sym_RB &kp CARET          &kp PIPE            &kp AMPS            &lk_LRltgt          &kp GT
@@ -40,8 +40,8 @@
 #define l_fun_LT &kp F9             &kp F10             &kp F11             &kp F12             &kp F13
 #define l_fun_RT &kp FSLH           &kp N7              &kp N8              &kp N9              &kp MINUS
 
-#define l_fun_LM &mt LCTRL F5       &mt LALT F6         &mt LGUI F7         &mt LSHFT F8        &kp F14
-#define l_fun_RM &kp STAR           &mt RSHFT N1        &mt RGUI N2         &mt RALT N3         &mt LCTRL PLUS
+#define l_fun_LM &mt LGUI F5       &mt LALT F6         &mt LCTRL F7         &mt LSHFT F8        &kp F14
+#define l_fun_RM &kp STAR           &mt RSHFT N1        &mt RCTRL N2         &mt RALT N3         &mt LGUI PLUS
 
 #define l_fun_LB &kp F1             &kp F2              &kp F3              &kp F4              &kp F15
 #define l_fun_RB &kp CMMA           &kp N4              &kp N5              &kp N6              &kp EQUAL
@@ -62,7 +62,7 @@
 #define l_num_RT &kp KP_DIVIDE      &kp KP_N7           &kp KP_N8           &kp KP_N9           &kp KP_SUBTRACT
 
 #define l_num_LM &kp S_WRDL         &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_WRDR
-#define l_num_RM &kp KP_MULTIPLY    &mt RSHFT KP_N4     &mt RGUI KP_N5      &mt RALT KP_N6      &mt LCTRL KP_PLUS
+#define l_num_RM &kp KP_MULTIPLY    &mt RSHFT KP_N4     &mt RCTRL KP_N5      &mt RALT KP_N6      &mt LGUI KP_PLUS
 
 #define l_num_LB &kp S_DBTM         &kp END             &kp SPACE           &kp PG_DN           &kp S_PARD
 #define l_num_RB &kp KP_COMMA       &kp KP_N1           &kp KP_N2           &kp KP_N3           &kp KP_EQUAL
@@ -82,7 +82,7 @@
 #define l_nav_LT &kp S_QUIT         &kp S_CLOSE         &kp S_ScrCp         &kp S_SelCp         &kp S_PSTM
 #define l_nav_RT &kp S_DTOP         &kp HOME            &kp UP              &kp PG_UP           &kp S_PARU
 
-#define l_nav_LM &kp LCTRL          &kp LALT            &kp LGUI            &kp LSHFT           &kp S_FIND
+#define l_nav_LM &kp LGUI          &kp LALT            &kp LCTRL            &kp LSHFT           &kp S_FIND
 #define l_nav_RM &kp S_WRDL         &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_WRDR
 
 #define l_nav_LB &kp UNDO           &kp CUT             &kp S_COPY          &kp S_PSTM          &kp S_FAGN
