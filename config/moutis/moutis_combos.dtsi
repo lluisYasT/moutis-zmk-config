@@ -86,7 +86,7 @@ COMBO_LAYER(t_Under, &kp UNDER,             RB1 RB3, l_hd)       // _
 COMBO_LAYER(t_Equal, &lk PRCNT EQUAL,       RB2 RB3, l_hd)       // = (percent if held)
 COMBO_LAYER(t_Ndash, &lk LA(LS(MINUS)) LA(MINUS), RB0 RB1, l_hd) // N-dash (M-dash if held)
 COMBO_LAYER(t_Mdash, &kp LA(LS(MINUS)),     RB0 RB2, l_hd)       // M-dash (minus)
-COMBO_LAYER(t_Tilde, &kp TILDE,             RB0 RB3, l_hd)       // ~ tilde (wave dash)
+COMBO_LAYER(t_Tilde, &kp TILDE,             RB1 RB4, l_hd)       // ~ tilde (wave dash)
 
 COMBO_LAYER(ligAE,   &kp LA(APOS),          RM1 RB1, l_hd)       // ligature æ
 COMBO_LAYER(ligOE,   &kp LA(Q),             RM2 RB2, l_hd)       // ligature œ
