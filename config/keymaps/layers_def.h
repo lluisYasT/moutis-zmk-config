@@ -58,7 +58,7 @@
 //                           ╰──────────────────╯                ╰─────────────────╯
 #define l_num_label "l_num"
 
-#define l_num_LT &kp S_DTOP         &kp HOME            &kp LNLCK              &kp PG_UP           &kp S_PARU
+#define l_num_LT &kp S_DTOP         &kp HOME            &kp UP              &kp PG_UP           &kp LNLCK
 #define l_num_RT &kp KP_DIVIDE      &kp KP_N7           &kp KP_N8           &kp KP_N9           &kp KP_SUBTRACT
 
 #define l_num_LM &kp S_WRDL         &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_WRDR
