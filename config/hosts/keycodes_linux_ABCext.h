@@ -31,8 +31,8 @@
 #define KILL_W  LC(LA(DEL))         // KILL (win)
 
 // Editing commands
-#define S_DWRDL LA(BSPC)            // delete word left
-#define S_DWRDR LA(DEL)             // delete word right
+#define S_DWRDL LC(BSPC)            // delete word left
+#define S_DWRDR LC(DEL)             // delete word right
 #define S_UNDO  LC(Z)               // Undo
 #define S_CUT   LC(X)               // Cut
 #define S_COPY  LC(C)               // Copy
