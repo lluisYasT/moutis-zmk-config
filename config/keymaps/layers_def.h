@@ -51,14 +51,14 @@
 
 //                                        Nav & NumPad (standard)
 //╭─────────────────────────────────────────────╮                ╭────────────────────────────────────────────╮
-//|   Top   |  HOME  |   UP   | PG_UP |   ¶up   |                |    /   |   7    |   8    |   9    |    -   |
+//|   Top   |  HOME  |   UP   | PG_UP |   NLCK  |                |    /   |   7    |   8    |   9    |    -   |
 //|  Lword  |  LEFT  |  DOWN  |  RGT  |  Rword  |                |    *   |  S/4   |  G/5   |  A/6   |   C/+  |
 //|   Bot   |   END  |   SPC  | PG_DN |   ¶dn   |                |    ,   |   1    |   2    |   3    |    =   |
 //╰──────────────────────────╮  BSPC  |KP_ENTER |                |    0   |   .    ╭──────────────────────────╯
 //                           ╰──────────────────╯                ╰─────────────────╯
 #define l_num_label "l_num"
 
-#define l_num_LT &kp S_DTOP         &kp HOME            &kp UP              &kp PG_UP           &kp S_PARU
+#define l_num_LT &kp S_DTOP         &kp HOME            &kp LNLCK              &kp PG_UP           &kp S_PARU
 #define l_num_RT &kp KP_DIVIDE      &kp KP_N7           &kp KP_N8           &kp KP_N9           &kp KP_SUBTRACT
 
 #define l_num_LM &kp S_WRDL         &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_WRDR
@@ -88,7 +88,7 @@
 #define l_nav_LB &kp UNDO           &kp CUT             &kp S_COPY          &kp S_PSTM          &kp S_FAGN
 #define l_nav_RB &kp S_DBTM         &kp END             &kp DOWN            &kp PG_DN           &kp S_PARD
 
-#define l_nav_LH &SlApBack          &SlAppy
+#define l_nav_LH &kp BSPC           &kp DEL
 #define l_nav_RH &kp S_BBACK        &kp S_BFWD
 
 //                                          Keyboard & System Settings
