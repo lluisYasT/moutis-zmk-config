@@ -62,10 +62,10 @@
 #define l_num_RT &kp KP_DIVIDE      &kp KP_N7           &kp KP_N8           &kp KP_N9           &kp KP_SUBTRACT
 
 #define l_num_LM &kp S_WRDL         &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_WRDR
-#define l_num_RM &kp KP_MULTIPLY    &mt RSHFT KP_N4     &mt RCTRL KP_N5      &mt RALT KP_N6      &mt LGUI KP_PLUS
+#define l_num_RM &kp KP_MULTIPLY    &mt RSHFT KP_N4     &mt RCTRL KP_N5     &mt RALT KP_N6      &mt LGUI KP_PLUS
 
 #define l_num_LB &kp S_DBTM         &kp END             &kp SPACE           &kp PG_DN           &kp S_PARD
-#define l_num_RB &kp KP_COMMA       &kp KP_N1           &kp KP_N2           &kp KP_N3           &kp KP_EQUAL
+#define l_num_RB &kp KP_COMMA       &mt RSHFT KP_N1     &mt RCTRL KP_N2     &mt RALT KP_N3      &mt LGUI KP_EQUAL
 
 #define l_num_LH &lt l_fun BSPC     &lt l_nav KP_ENTER
 #define l_num_RH &kp KP_N0          &kp KP_DOT
