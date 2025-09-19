@@ -41,7 +41,7 @@
 #define l_fun_RT &kp FSLH           &kp N7              &kp N8              &kp N9              &kp MINUS
 
 #define l_fun_LM &mt LGUI F5       &mt LALT F6         &mt LCTRL F7         &mt LSHFT F8        &kp F14
-#define l_fun_RM &kp STAR           &mt RSHFT N4        &mt RCTRL N5         &mt RALT N4         &mt LGUI PLUS
+#define l_fun_RM &kp STAR           &mt RSHFT N4        &mt RCTRL N5         &mt RALT N6         &mt LGUI PLUS
 
 #define l_fun_LB &kp F1             &kp F2              &kp F3              &kp F4              &kp F15
 #define l_fun_RB &kp CMMA           &kp N1              &kp N2              &kp N3              &kp EQUAL
