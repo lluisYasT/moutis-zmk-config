@@ -31,8 +31,8 @@
 //                                         Fkey & Num Row (optimized)
 //╭─────────────────────────────────────────────╮                ╭────────────────────────────────────────────╮
 //|    F9   |  F10   |  F11   |  F12   |  F13   |                |    /   |   7    |    8   |   9    |    -   |
-//|   C/F5  |  A/F6  |  G/F7  |  S/F8  |  F14   |                |    *   |  S/1   |   G/2  |  A/3   |   C/+  |
-//|    F1   |   F2   |   F3   |   F4   |  F15   |                |    ,   |   4    |    5   |   6    |    =   |
+//|   C/F5  |  A/F6  |  G/F7  |  S/F8  |  F14   |                |    *   |  S/4   |   G/5  |  A/6   |   C/+  |
+//|    F1   |   F2   |   F3   |   F4   |  F15   |                |    ,   |   1    |    2   |   3    |    =   |
 //╰──────────────────────────╮  BKSP   |   DEL  |                |    0   |   .    ╭──────────────────────────╯
 //                           ╰──────────────────╯                ╰─────────────────╯
 #define l_fun_label "l_fn"
@@ -41,10 +41,10 @@
 #define l_fun_RT &kp FSLH           &kp N7              &kp N8              &kp N9              &kp MINUS
 
 #define l_fun_LM &mt LGUI F5       &mt LALT F6         &mt LCTRL F7         &mt LSHFT F8        &kp F14
-#define l_fun_RM &kp STAR           &mt RSHFT N1        &mt RCTRL N2         &mt RALT N3         &mt LGUI PLUS
+#define l_fun_RM &kp STAR           &mt RSHFT N4        &mt RCTRL N5         &mt RALT N4         &mt LGUI PLUS
 
 #define l_fun_LB &kp F1             &kp F2              &kp F3              &kp F4              &kp F15
-#define l_fun_RB &kp CMMA           &kp N4              &kp N5              &kp N6              &kp EQUAL
+#define l_fun_RB &kp CMMA           &kp N1              &kp N2              &kp N3              &kp EQUAL
 
 #define l_fun_LH &kp BSPC           &kp DEL
 #define l_fun_RH &kp N0             &kp DOT
