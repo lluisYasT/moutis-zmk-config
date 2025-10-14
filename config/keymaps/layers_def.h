@@ -9,21 +9,21 @@
 //                                                Symbol & math
 //  * left paired symbols are "linger keys" via hold taps. Tap for left, hold for pair with insertion point between
 //╭─────────────────────────────────────────────╮                ╭────────────────────────────────────────────╮
-//|    Z   |    Q   |   ¶    |   †    |    ‡    |                |   ¢    |    $   |    €   |    £   |   ¥    |
+//|    Z   |    Q   |   ¶    |   ~    |    `    |                |   ¢    |    $   |    €   |    £   |   ¥    |
 //|    §   |    [   |   (    |   {    |    •    |                |   /    |    =   |    *   |    +   |   -    |
 //|    °   |    ]   |   )    |   }    |    ·    |                |   ^    |    |   |    &   |    <   |   >    |
 //╰──────────────────────────╮ dwdlt  |  dwdr   |                | &none  |    ¡   ╭──────────────────────────╯
 //                           ╰──────────────────╯                ╰─────────────────╯
 #define l_sym_label "l_sym"
 
-#define l_sym_LT &kp Z              &kp Q               &kp S_PARA          &kp S_CROS          &kp S_DCRS
+#define l_sym_LT &kp Z              &kp Q               &kp S_PARA          &kp TILDE          &kp GRAVE
 #define l_sym_RT &kp C_CENT         &kp DLLR            &kp C_EURO          &kp C_BPND          &kp C_JPY
 
 #define l_sym_LM &kp S_SECT         &lk_LRbkt           &lk_LRpar           &lk_LRbrc           &kp S_BBLT
 #define l_sym_RM &kp FSLH           &mt RSHFT EQUAL     &mt RCTRL STAR       &mt RALT PLUS       &mt LGUI MINUS
 
 #define l_sym_LB &kp S_DEGR         &kp RBKT            &kp RPAR            &kp RBRC            &kp S_SBLT
-#define l_sym_RB &kp CARET          &kp PIPE            &kp AMPS            &lk_LRltgt          &kp GT
+#define l_sym_RB &kp CARET          &kp PIPE            &kp AMPS            &kp LT             &kp GT
 
 #define l_sym_LH &kp S_DWRDL        &kp S_DWRDR
 #define l_sym_RH &none              &kp S_INVX
