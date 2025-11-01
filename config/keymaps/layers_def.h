@@ -79,10 +79,10 @@
 //                           ╰──────────────────╯                ╰──────────────────╯
 #define l_nav_label "l_nav"
 
-#define l_nav_LT &kp S_QUIT         &kp S_CLOSE         &kp S_ScrCp         &kp S_SelCp         &kp S_PSTM
+#define l_nav_LT &kp S_QUIT         &kp S_CLOSE         &kp UP         &kp S_SelCp         &kp S_PSTM
 #define l_nav_RT &kp S_DTOP         &kp HOME            &kp UP              &kp PG_UP           &kp S_PARU
 
-#define l_nav_LM &kp LGUI          &kp LALT            &kp LCTRL            &kp LSHFT           &kp S_FIND
+#define l_nav_LM &kp LGUI          &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_FIND
 #define l_nav_RM &kp S_WRDL         &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_WRDR
 
 #define l_nav_LB &kp UNDO           &kp CUT             &kp S_COPY          &kp S_PSTM          &kp S_FAGN
