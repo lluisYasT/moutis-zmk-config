@@ -132,6 +132,6 @@
 #define l_game_RB &kp S_ZMIN         &kp C_VOL_DN        &kp C_PP            &kp C_PREV          &rst_btld
 
 #define l_game_LH &kp ENTER          &kp SPACE
-#define l_game_RH &kp S_ZMIN         &kp S_ZMOUT
+#define l_game_RH &kp S_ZMIN         &to l_hd
 
 
