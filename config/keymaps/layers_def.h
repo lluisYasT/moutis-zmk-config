@@ -123,7 +123,7 @@
 #define l_game_label "l_game"
 
 #define l_game_LT &kp LALT            &kp Q               &kp W               &kp E              &kp R
-#define l_game_RT &kp Y              &kp U               &kp I               &kp O              &kp P
+#define l_game_RT &kp Y               &kp U               &kp I               &kp O              &kp P
 
 #define l_game_LM &kp LSHIFT         &kp A               &kp S               &kp D               &kp F
 #define l_game_RM &kp G              &kp H               &kp J               &kp K               &kp L
@@ -132,6 +132,6 @@
 #define l_game_RB &kp B              &kp N               &kp M               &kp COMMA           &kp DOT
 
 #define l_game_LH &kp ENTER          &kp SPACE
-#define l_game_RH &lt l_sym          &to l_hd
+#define l_game_RH &lt l_sym BSPC     &to l_hd
 
 
