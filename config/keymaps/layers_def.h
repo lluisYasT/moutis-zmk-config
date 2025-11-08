@@ -115,23 +115,23 @@
 
 //                                          Gaming Layer
 //╭─────────────────────────────────────────────╮                ╭────────────────────────────────────────────╮
-//│  TAB     Q        W        E        R       │                │ ZOOMRST none    none    KILL-W  KILL-M     │
+//│  LALT    Q        W        E        R       │                │ ZOOMRST none    none    KILL-W  KILL-M     │
 //│  SHIFT   A        S        D        F       |                | ZOOMOUT KC_MPRV KC_MUTE KC_MNXT KC_NO      │
 //│  CTRL    Z        X        C        V       │                │ ZOOMIN  KC_MRWD KC_MPLY KC_MFFD QK_BOOT    │
 //╰──────────────────────────╮ ENTER    SPACE   │                │ ZOOMIN  ZOOMOUT ╭──────────────────────────╯
 //                           ╰──────────────────╯                ╰─────────────────╯
 #define l_game_label "l_game"
 
-#define l_game_LT &kp TAB            &kp Q               &kp W               &kp E              &kp R
-#define l_game_RT &bt BT_CLR         &none               &none               &kp KILL_W         &kp C_SLEEP
+#define l_game_LT &kp LALT            &kp Q               &kp W               &kp E              &kp R
+#define l_game_RT &kp Y              &kp U               &kp I               &kp O              &kp P
 
 #define l_game_LM &kp LSHIFT         &kp A               &kp S               &kp D               &kp F
-#define l_game_RM &kp S_ZMOUT        &kp C_VOL_UP        &kp C_MUTE          &kp C_NEXT          &none
+#define l_game_RM &kp G              &kp H               &kp J               &kp K               &kp L
 
 #define l_game_LB &kp LCTRL          &kp Z               &kp X               &kp C               &kp V
-#define l_game_RB &kp S_ZMIN         &kp C_VOL_DN        &kp C_PP            &kp C_PREV          &rst_btld
+#define l_game_RB &kp B              &kp N               &kp M               &kp COMMA           &kp DOT
 
 #define l_game_LH &kp ENTER          &kp SPACE
-#define l_game_RH &kp S_ZMIN         &to l_hd
+#define l_game_RH &lt l_sym          &to l_hd
 
 
