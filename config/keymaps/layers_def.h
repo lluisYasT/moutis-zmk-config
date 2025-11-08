@@ -101,10 +101,10 @@
 //                           ╰──────────────────╯                ╰─────────────────╯
 #define l_cfg_label "l_cfg"
 
-#define l_cfg_LT &bt BT_SEL 4        &bt BT_SEL 3        &bt BT_SEL 2        &bt BT_SEL 1       &bt BT_SEL 0
-#define l_cfg_RT &bt BT_CLR         &none               &none               &kp KILL_W         &kp C_SLEEP
+#define l_cfg_LT &bt BT_SEL 4       &bt BT_SEL 3        &bt BT_SEL 2        &bt BT_SEL 1       &bt BT_SEL 0
+#define l_cfg_RT &bt BT_CLR         &to l_hd            &to l_game          &kp KILL_W         &kp C_SLEEP
 
-#define l_cfg_LM &none              &kp C_NEXT          &kp C_PP            &kp C_VOL_UP        &kp C_BRI_UP
+#define l_cfg_LM &out OUT_TOG       &kp C_NEXT          &kp C_PP            &kp C_VOL_UP        &kp C_BRI_UP
 #define l_cfg_RM &kp S_ZMOUT        &kp C_VOL_UP        &kp C_MUTE          &kp C_NEXT          &none
 
 #define l_cfg_LB &rst_btld          &kp C_PREV          &kp C_MUTE          &kp C_VOL_DN        &kp C_BRI_DN
@@ -112,3 +112,26 @@
 
 #define l_cfg_LH &kp S_ZMOUT        &kp S_ZMIN
 #define l_cfg_RH &kp S_ZMIN         &kp S_ZMOUT
+
+//                                          Gaming Layer
+//╭─────────────────────────────────────────────╮                ╭────────────────────────────────────────────╮
+//│  TAB     Q        W        E        R       │                │ ZOOMRST none    none    KILL-W  KILL-M     │
+//│  SHIFT   A        S        D        F       |                | ZOOMOUT KC_MPRV KC_MUTE KC_MNXT KC_NO      │
+//│  CTRL    Z        X        C        V       │                │ ZOOMIN  KC_MRWD KC_MPLY KC_MFFD QK_BOOT    │
+//╰──────────────────────────╮ ENTER    SPACE   │                │ ZOOMIN  ZOOMOUT ╭──────────────────────────╯
+//                           ╰──────────────────╯                ╰─────────────────╯
+#define l_game_label "l_game"
+
+#define l_game_LT &kp TAB            &kp Q               &kp W               &kp E              &kp R
+#define l_game_RT &bt BT_CLR         &none               &none               &kp KILL_W         &kp C_SLEEP
+
+#define l_game_LM &kp LSHIFT         &kp A               &kp S               &kp D               &kp F
+#define l_game_RM &kp S_ZMOUT        &kp C_VOL_UP        &kp C_MUTE          &kp C_NEXT          &none
+
+#define l_game_LB &kp LCTRL          &kp Z               &kp X               &kp C               &kp V
+#define l_game_RB &kp S_ZMIN         &kp C_VOL_DN        &kp C_PP            &kp C_PREV          &rst_btld
+
+#define l_game_LH &kp ENTER          &kp SPACE
+#define l_game_RH &kp S_ZMIN         &kp S_ZMOUT
+
+

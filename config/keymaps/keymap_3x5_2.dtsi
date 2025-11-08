@@ -95,4 +95,14 @@
                                 l_cfg_LH            l_cfg_RH
                 >;
             };
+
+            l_game {
+                label = l_game_label;
+                bindings = <
+                                l_game_LT            l_game_RT
+                                l_game_LM            l_game_RM
+                                l_game_LB            l_game_RB
+                                l_game_LH            l_game_RH
+                >;
+            };
     };
