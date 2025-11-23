@@ -135,3 +135,6 @@ COMBO_LAYER(l_hd_RText, &lk_R_textE 0 0,    RT1 RT2 RT3, l_hd)
 COMBO_LAYER(l_jp_LText, &lk_L_textJ 0 0,    LT3 LT2 LT1, l_jp)
 COMBO_LAYER(l_jp_RText, &lk_R_textJ 0 0,    RT1 RT2 RT3, l_jp)
 #endif
+
+// Gaming Layer
+COMBO_LAYER(t_T, &kp T, LT2 LT1, l_game)
