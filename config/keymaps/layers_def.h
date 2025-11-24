@@ -85,7 +85,7 @@
 #define l_nav_LM &kp LGUI          &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_FIND
 #define l_nav_RM &kp S_WRDL         &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_WRDR
 
-#define l_nav_LB &kp UNDO           &kp CUT             &kp S_COPY          &kp S_PSTM          &kp S_FAGN
+#define l_nav_LB &sk RGUI           &sk RALT            &sk RCTRL           &sk RSHFT          &kp S_FAGN
 #define l_nav_RB &kp S_DBTM         &kp END             &kp DOWN            &kp PG_DN           &kp S_PARD
 
 #define l_nav_LH &kp BSPC           &kp DEL
