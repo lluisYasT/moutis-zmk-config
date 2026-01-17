@@ -10,14 +10,14 @@ manifest:
       url-base: https://github.com/ssbb
   projects:
     - name: zmk
-#      remote: zmkfirmware
-#      revision: v0.3
+      remote: zmkfirmware
+      revision: main
 
 #      remote: caksoylar
 #      revision: caksoylar/zen-v1+v2
 
-      remote: urob # zmkfirmware or urob
-      revision: main # main or v0.2+fix-child-nodes
+#      remote: urob # zmkfirmware or urob
+#      revision: main # main or v0.2+fix-child-nodes
 
       import: app/west.yml
 
