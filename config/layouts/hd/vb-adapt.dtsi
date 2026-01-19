@@ -27,7 +27,7 @@
             bindings = <&kp C>;
 
             akC_Cap { trigger-keys = <CMMA>; max-prior-idle-ms = <my_cc_term>; bindings = <&kp BSPC &kp LS(C)>; strict-modifiers; };
-            akC_t_ch { trigger-keys = <T>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp C &kp H>; };
+            /* akC_t_ch { trigger-keys = <T>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp C &kp H>; }; */
             akC_t_s { trigger-keys = <B>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp S>; };
         };
         ak_D: ak_D {
@@ -89,7 +89,7 @@
             bindings = <&kp J>;
 
             akJ_Cap { trigger-keys = <CMMA>; max-prior-idle-ms = <my_cc_term>; bindings = <&kp BSPC &kp LS(J)>; strict-modifiers; };
-            akJ_t_th { trigger-keys = <G>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp T &kp H>; };
+            /* akJ_t_th { trigger-keys = <G>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp T &kp H>; }; */
             akJ_t_l { trigger-keys = <M W>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp L>; };
         };
         ak_K: ak_K {
