@@ -203,7 +203,7 @@
             akX_t_t { trigger-keys = <G>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp T>; };
             akX_t_l { trigger-keys = <M>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp L>; };
             akX_t_s { trigger-keys = <W>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp S>; };
-            akX_t_s { trigger-keys = <D>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp V>; };
+            akX_t_v { trigger-keys = <D>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp V>; };
         };
         ak_Y: ak_Y {
             compatible = "zmk,behavior-adaptive-key";
