@@ -98,8 +98,8 @@
             bindings = <&kp K>;
 
             akK_Cap { trigger-keys = <CMMA>; max-prior-idle-ms = <my_cc_term>; bindings = <&kp BSPC &kp LS(K)>; strict-modifiers; };
-            akK_b_lk { trigger-keys = <D G>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp L &kp K>; };
-            akK_b_ck { trigger-keys = <T>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp C &kp K>; };
+            /* akK_b_lk { trigger-keys = <D G>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp L &kp K>; }; */
+            /* akK_b_ck { trigger-keys = <T>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp C &kp K>; }; */
         };
         ak_L: ak_L {
             compatible = "zmk,behavior-adaptive-key";
