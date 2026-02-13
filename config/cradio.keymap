@@ -12,14 +12,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <behaviors/num_word.dtsi>      // urob's num_word module
 
-// wired_split
-/ {
-    wired_split {
-        compatible = "zmk,wired-split";
-        device = <&pro_micro_serial>;
-    };
-};
-
 
 / {
   chosen {
@@ -34,6 +26,11 @@
 #include "layouts/hd/vb-config.h"       // HD alpha keymap, adapt, and combo definitions
 
 / {
+// wired_split
+    wired_split {
+        compatible = "zmk,wired-split";
+        device = <&pro_micro_serial>;
+    };
 /*
  * Behaviors
  */
