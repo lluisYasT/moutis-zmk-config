@@ -62,7 +62,7 @@
             akG_t_pg { trigger-keys = <J>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp P &kp G>; };
             /* akG_t_l  { trigger-keys = <K>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp L>; }; */
             /* akG_b_gl { trigger-keys = <M>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp L &kp G>; }; */
-            akG_b_lml { trigger-keys = <W>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp L &kp M &kp L>; };
+            /* akG_b_lml { trigger-keys = <W>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp L &kp M &kp L>; }; */
         };
         ak_H: ak_H {
             compatible = "zmk,behavior-adaptive-key";
