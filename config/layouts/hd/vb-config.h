@@ -54,7 +54,7 @@
 #define DOT_LH                                                _______         _______
 
 #define DOT_RT &kp DLLR       &kp DOT         _______         _______         _______
-#define DOT_RM &caps_word     _______         _______         _______         _______
+#define DOT_RM _______        _______         _______         _______         _______
 #define DOT_RB _______        _______         _______         _______         _______
 #define DOT_RH _______        _______
 
