@@ -31,7 +31,7 @@
 
 #define HD_RT &HashDllr       &DotColn        &SlshStar       &DqtLT          &SqtGT
 #define HD_RM &CommaMagic     &mt_A LSHFT A   &mt_E LCTRL E    &mt_I LALT I    &mt_H LGUI H
-#define HD_RB &MinusPlus      &ak_U           &ak_O           &ak_Y           &ak_F
+#define HD_RB &MinusPlus      &ak_U           &ak_O           &ak_Y           &lt l_sym F
 #define HD_RH &lt l_sym SPACE &lt l_nav RETURN
 
 // Japanese "mode" (no adaptives, & L, C, X not used so repurpose to ん, Z, -)
