@@ -49,7 +49,7 @@
         ak_F: ak_F {
             compatible = "zmk,behavior-adaptive-key";
             #binding-cells = <0>;
-            bindings = <&kp F>;
+            bindings = <&lt l_sym F>;
 
             akF_Cap { trigger-keys = <CMMA>; max-prior-idle-ms = <my_cc_term>; bindings = <&kp BSPC &kp LS(F)>; strict-modifiers; };
         };
