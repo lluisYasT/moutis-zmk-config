@@ -17,12 +17,12 @@
 #define l_sym_label "l_sym"
 
 #define l_sym_LT &kp Z              &kp Q               &kp S_PARA          &kp TILDE          &kp GRAVE
-#define l_sym_RT &kp C_CENT         &kp DLLR            &kp C_EURO          &kp C_BPND          &kp C_JPY
+#define l_sym_RT &kp C_CENT         &kp DLLR            &kp C_EURO          &DqtLT             &SqtGT
 
-#define l_sym_LM &kp S_SECT         &lk_LRbkt           &lk_LRpar           &lk_LRbrc           &kp S_BBLT
-#define l_sym_RM &kp FSLH           &mt RSHFT EQUAL     &mt RCTRL STAR       &mt RALT PLUS       &mt LGUI MINUS
+#define l_sym_LM &kp S_SECT         &lk_LRbkt           &lk_LRpar           &lk_LRbrc          &kp S_BBLT
+#define l_sym_RM &kp FSLH           &mt RSHFT EQUAL     &mt RCTRL STAR      &mt RALT PLUS      &mt LGUI MINUS
 
-#define l_sym_LB &kp S_DEGR         &kp RBKT            &kp RPAR            &kp RBRC            &kp S_SBLT
+#define l_sym_LB &kp S_DEGR         &kp RBKT            &kp RPAR            &kp RBRC           &kp S_SBLT
 #define l_sym_RB &kp CARET          &kp PIPE            &kp AMPS            &kp LT             &kp GT
 
 #define l_sym_LH &kp S_DWRDL        &kp S_DWRDR
@@ -134,4 +134,16 @@
 #define l_game_LH &kp ENTER          &kp SPACE
 #define l_game_RH &lt l_sym BSPC     &to l_hd
 
+#define l_qwerty_label "l_qmerty"
 
+#define l_qwerty_LT &kp Q              &kp W               &kp E               &kp R              &kp T
+#define l_qwerty_RT &kp Y              &kp U               &kp I               &kp O              &kp P
+
+#define l_qwerty_LM &hml LGUI A        &hml LALT S         &hml LCTRL D        &hml LSHIFT F      &kp G
+#define l_qwerty_RM &kp H              &hmr LSHIFT J       &hmr LCTRL K        &hmr LALT L        &hmr LGUI SEMI
+
+#define l_qwerty_LB &kp Z              &kp X               &kp C               &kp V              &kp B
+#define l_qwerty_RB &kp N              &kp M               &kp COMMA           &kp DOT            &kp COMMA
+
+#define l_qwerty_LH &kp ENTER          &kp SPACE
+#define l_qwerty_RH &lt l_sym BSPC     &to l_hd

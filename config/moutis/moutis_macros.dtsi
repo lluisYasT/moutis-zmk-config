@@ -33,7 +33,7 @@
      ZMK_MACRO(m_japan,
         bindings =
             <&kp LANG1>,    // switch to Japanese script (henk/kana/romaji)
-            <&to l_jp>;     // make Japanese layer default
+           // <&to l_jp>;     // make Japanese layer default
        )
 
 /*

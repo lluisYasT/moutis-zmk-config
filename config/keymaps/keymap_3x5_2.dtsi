@@ -105,4 +105,14 @@
                                 l_game_LH            l_game_RH
                 >;
             };
+
+            l_qwerty {
+                label = l_qwerty_label;
+                bindings = <
+                                l_qwerty_LT            l_qwerty_RT
+                                l_qwerty_LM            l_qwerty_RM
+                                l_qwerty_LB            l_qwerty_RB
+                                l_qwerty_LH            l_qwerty_RH
+                >;
+            };
     };

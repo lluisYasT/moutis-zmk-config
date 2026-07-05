@@ -62,3 +62,4 @@
 #define l_nav   6 // metakeys (left) navpad (right)
 #define l_cfg   7 // Keyboard settings · Media/Consumer controls
 #define l_game  8 // Gaming Layer
+#define l_qwerty 9 // QWERTY
