@@ -137,13 +137,11 @@
 #define l_qwerty_label "l_qmerty"
 
 #define l_qwerty_LT &kp Q              &kp W               &kp E               &kp R              &kp T
-#define l_qwerty_RT &kp Y              &kp U               &kp I               &kp O              &kp P
-
 #define l_qwerty_LM &hml LGUI A        &hml LALT S         &hml LCTRL D        &hml LSHIFT F      &kp G
-#define l_qwerty_RM &kp H              &hmr LSHIFT J       &hmr LCTRL K        &hmr LALT L        &hmr LGUI SEMI
-
 #define l_qwerty_LB &kp Z              &kp X               &kp C               &kp V              &kp B
-#define l_qwerty_RB &kp N              &kp M               &kp COMMA           &kp DOT            &kp COMMA
+#define l_qwerty_LH                                                           &lt_BSPC l_fun BSPC &lt_R l_nav R
 
-#define l_qwerty_LH &kp ENTER          &kp SPACE
-#define l_qwerty_RH &lt l_sym BSPC     &to l_hd
+#define l_qwerty_RT &kp Y              &kp U               &kp I               &kp O              &kp P
+#define l_qwerty_RM &kp H              &hmr LSHIFT J       &hmr LCTRL K        &hmr LALT L        &hmr LGUI SEMI
+#define l_qwerty_RB &kp N              &kp M               &kp COMMA           &kp DOT            &kp COMMA
+#define l_qwerty_RH &lt l_sym SPACE    &lt l_nav RETURN
