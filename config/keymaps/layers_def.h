@@ -101,11 +101,11 @@
 //                           ╰──────────────────╯                ╰─────────────────╯
 #define l_cfg_label "l_cfg"
 
-#define l_cfg_LT &bt BT_SEL 4       &bt BT_SEL 3        &bt BT_SEL 2        &bt BT_SEL 1       &bt BT_SEL 0
-#define l_cfg_RT &bt BT_CLR         &to l_hd            &to l_game          &kp KILL_W         &kp C_SLEEP
+#define l_cfg_LT &bt BT_SEL 4       &bt BT_SEL 3        &bt BT_SEL 2        &bt BT_SEL 1        &bt BT_SEL 0
+#define l_cfg_RT &bt BT_CLR         &to l_hd            &to l_game          &to l_qwerty        &kp C_SLEEP
 
 #define l_cfg_LM &out OUT_TOG       &kp C_NEXT          &kp C_PP            &kp C_VOL_UP        &kp C_BRI_UP
-#define l_cfg_RM &kp S_ZMOUT        &kp C_VOL_UP        &kp C_MUTE          &kp C_NEXT          &none
+#define l_cfg_RM &kp S_ZMOUT        &kp C_VOL_UP        &kp C_MUTE          &kp C_NEXT          &kp KILL_W
 
 #define l_cfg_LB &rst_btld          &kp C_PREV          &kp C_MUTE          &kp C_VOL_DN        &kp C_BRI_DN
 #define l_cfg_RB &kp S_ZMIN         &kp C_VOL_DN        &kp C_PP            &kp C_PREV          &rst_btld
