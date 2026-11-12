@@ -17,12 +17,12 @@
 #define l_sym_label "l_sym"
 
 #define l_sym_LT &kp Z              &kp Q               &kp S_PARA          &kp TILDE          &kp GRAVE
-#define l_sym_RT &kp C_CENT         &kp DLLR            &kp C_EURO          &DqtLT             &SqtGT
+#define l_sym_RT &kp INT1           &kp INT2            &kp INT3            &DqtLT             &SqtGT
 
-#define l_sym_LM &kp S_SECT         &lk_LRbkt           &lk_LRpar           &lk_LRbrc          &kp S_BBLT
+#define l_sym_LM &kp INT4           &lk_LRbkt           &lk_LRpar           &lk_LRbrc          &kp INT6
 #define l_sym_RM &kp FSLH           &mt RSHFT EQUAL     &mt RCTRL STAR      &mt RALT PLUS      &mt LGUI MINUS
 
-#define l_sym_LB &kp S_DEGR         &kp RBKT            &kp RPAR            &kp RBRC           &kp S_SBLT
+#define l_sym_LB &kp INT5           &kp RBKT            &kp RPAR            &kp RBRC           &kp INT7
 #define l_sym_RB &kp CARET          &kp PIPE            &kp AMPS            &kp LT             &kp GT
 
 #define l_sym_LH &kp S_DWRDL        &kp S_DWRDR
